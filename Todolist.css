@@ -104,7 +104,6 @@ h2{
 h3{
     padding-top: 3px;
     color: black;
-    cursor:pointer;
 }
 
 hr{
@@ -115,6 +114,7 @@ hr{
     display: block;
     align-items: center;
     justify-content: center;
+    cursor:pointer;
 }
 
 .todo{
@@ -123,6 +123,7 @@ hr{
     background-color: aliceblue;
     margin: 10px 0 5px 0;
     border-radius: 10px;
+    cursor:pointer;
 }
 
 .tododes{
