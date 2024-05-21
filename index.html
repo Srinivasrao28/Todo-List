@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="Todolist.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <!-- Logo -->
+        <img src="Logo.png" alt="LOGO" id="logo" />
+      </nav>
+    </header>
+    <!-- Main  -->
+    <main>
+      <form id="addtodo">
+        <div class="title">
+          <input
+            type="text"
+            placeholder="Add Title for Your Todo"
+            id="title"
+            required
+          />
+        </div>
+        <div class="description">
+          <input
+            type="text"
+            placeholder="Add Description for Your Todo"
+            id="description"
+            required
+          />
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+
+      <div id="displaytodo">
+        <h2>Todo List</h2>
+        <hr />
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <!-- Copyright Claim Text  -->
+      <div class="footer-div">
+        <p class="footer-p">&#169; 2024 S Srinivas Rao. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="Todolist.js"></script>
+  </body>
+</html>
