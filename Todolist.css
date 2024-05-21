@@ -104,6 +104,7 @@ h2{
 h3{
     padding-top: 3px;
     color: black;
+    cursor:pointer;
 }
 
 hr{
@@ -131,7 +132,7 @@ hr{
     color: black;
     margin: 0 auto;
     border-radius: 5px;
-    /* display: none; */
+    cursor:pointer;
 }
 
 /* Footer  */
