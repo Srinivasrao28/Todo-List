@@ -31,6 +31,13 @@ function addTodo(event) {
     const line = document.createElement("h3");
     line.setAttribute("class", "todo");
 
+    line.addEventListener('contextmenu', removeTag);
+    function removeTag(e) {
+        e.preventDefault();
+    const element = document.querySelector(".todo");
+    element.remove();
+}
+
     // Creating a p Element 
 
     const desc = document.createElement("p");
